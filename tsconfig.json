@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "typeRoots": [".src/types", "./node_modules/@types"],
+    "target": "ESNext",
+    "moduleResolution": "nodenext"
+  }
+}
