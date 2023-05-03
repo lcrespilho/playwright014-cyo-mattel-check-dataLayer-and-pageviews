@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import { test } from '../playwright-fixtures';
+import { test } from '@lcrespilho/playwright-fixtures';
 
 test('dataLayer e collect', async ({ page, dataLayer, collects_ga3 }, testInfo) => {
   // Bloqueia disparo de algumas mídias
